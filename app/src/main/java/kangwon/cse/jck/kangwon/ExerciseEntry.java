@@ -1,4 +1,4 @@
-package kangwon.cse.jck.myruns3;
+package kangwon.cse.jck.kangwon;
 
 import com.google.android.gms.maps.model.LatLng;
 

@@ -1,4 +1,4 @@
-package kangwon.cse.jck.myruns3.dummy;
+package kangwon.cse.jck.kangwon.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

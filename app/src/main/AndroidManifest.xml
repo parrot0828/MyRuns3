@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kangwon.cse.jck.myruns3">
+    package="kangwon.cse.jck.kangwon">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="kangwon.cse.jck.myruns3.MainActivity"
+            android:name="kangwon.cse.jck.jgh.cse1.kangwon.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,13 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="kangwon.cse.jck.myruns3.ManualEntryActivity">
+        <activity android:name="kangwon.cse.jck.jgh.cse1.kangwon.ManualEntryActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="kangwon.cse.jck.myruns3.MapDisplayActivity"></activity>
-        <activity android:name="kangwon.cse.jck.myruns3.UserProfileActivity">
+        <activity android:name="kangwon.cse.jck.jgh.cse1.kangwon.MapDisplayActivity"></activity>
+        <activity android:name="kangwon.cse.jck.jgh.cse1.kangwon.UserProfileActivity">
             <intent-filter>
                 <action android:name=".UserProfileActivity"></action>
                 <category android:name="android.intent.category.DEFAULT" />

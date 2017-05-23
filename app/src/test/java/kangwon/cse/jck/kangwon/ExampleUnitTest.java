@@ -1,4 +1,4 @@
-package kangwon.cse.jck.myruns3;
+package kangwon.cse.jck.kangwon;
 
 import org.junit.Test;
 

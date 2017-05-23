@@ -1,4 +1,4 @@
-package kangwon.cse.jck.myruns3;
+package kangwon.cse.jck.kangwon;
 
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;

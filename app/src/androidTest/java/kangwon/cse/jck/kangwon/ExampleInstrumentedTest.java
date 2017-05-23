@@ -1,4 +1,4 @@
-package kangwon.cse.jck.myruns3;
+package kangwon.cse.jck.kangwon;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("kangwon.cse.jck.myruns3", appContext.getPackageName());
+        assertEquals("kangwon.cse.jck.jgh.cse1.kangwon", appContext.getPackageName());
     }
 }

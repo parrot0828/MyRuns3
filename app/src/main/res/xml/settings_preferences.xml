@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Account Preferences -->
+    <android.support.v7.preference.PreferenceCategory
+        android:title="계정 설정">
+
+        <android.support.v7.preference.PreferenceScreen
+            android:title="이름, 이메일, 전화번호 등"
+            android:summary="사용자 정보">
+            <intent android:action=".UserProfileActivity" />
+        </android.support.v7.preference.PreferenceScreen>
+
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="privacy_setting_checkbox_preference"
+            android:title="개인정보 보호"
+            android:summary="운동 정보를 익명으로 서버에 올림" />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <!-- Additional Settings -->
+    <android.support.v7.preference.PreferenceCategory
+        android:title="추가 설정">
+
+        <android.support.v7.preference.ListPreference
+            android:key="unit_preference"
+            android:defaultValue="kilometers"
+            android:title="거리 단위 설정"
+            android:summary="사용할 단위를 선택하세요."
+            android:entries="@array/ui_unit_preference_entries"
+            android:entryValues="@array/ui_unit_preference_entries_values"
+            android:dialogTitle="사용할 단위 선택" />
+
+        <android.support.v7.preference.EditTextPreference
+            android:key="comment_preference"
+            android:inputType="text"
+            android:title="메모"
+            android:summary="소감을 적어주세요." />
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <!-- Misc. -->
+    <android.support.v7.preference.PreferenceCategory
+        android:title="기타">
+
+        <android.support.v7.preference.PreferenceScreen
+            android:title="웹페이지"
+            android:summary="http://dmrl.kangwon.ac.kr/lecture/1701/android/1701_android.html">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://dmrl.kangwon.ac.kr/lecture/1701/android/1701_android.html" />
+        </android.support.v7.preference.PreferenceScreen>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+
+</android.support.v7.preference.PreferenceScreen>

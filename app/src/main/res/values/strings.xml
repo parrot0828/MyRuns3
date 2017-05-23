@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MyRuns3</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Spinners for UI -->
+    <string-array name="ui_input_type_spinner_list">
+        <item>직접 입력</item>
+        <item>GPS</item>
+        <item>자동</item>
+    </string-array>
+
+    <string-array name="ui_activity_type_spinner_list">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Constants for photo picker -->
+    <string-array name="ui_photo_picker_list">
+        <item>카메라</item>
+        <item>갤러리</item>
+    </string-array>
+
+    <string-array name="ui_unit_preference_entries">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="ui_unit_preference_entries_values">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+
+
+</resources>

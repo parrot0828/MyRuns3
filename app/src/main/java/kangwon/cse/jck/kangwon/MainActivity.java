@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
     private List<Fragment> frags;
+    public static ExerciseDbHelper DBhelper;
 
     // 세 개의 탭에 대응되는 세 개의 화면.
     private Fragment startFragment, historyFragment, settingFragment;
@@ -32,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if(savedInstanceState == null)
+        {
+            DBhelper = ExerciseDbHelper.getsInstance(this);
+        }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);   // 툴바를 액션바로 사용하도록 설정.

@@ -4,6 +4,7 @@ import android.app.DatePickerDialog;
 import android.app.DialogFragment;
 import android.app.ListActivity;
 import android.app.TimePickerDialog;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -40,6 +41,17 @@ public class ManualEntryActivity extends ListActivity {
 
     // Database
     public static ExerciseEntry entry;  // 운동 항목 (한 번의 운동)
+    private class WriteToDB extends AsyncTask<ExerciseEntry,Void,String> {
+        @Override
+        protected String doInBackground(ExerciseEntry... exerciseEntries) {
+            long id = MainActivity.DBhelper.insertEnrty(entry);
+            return ""+id;
+        }
+        @Override
+        protected void onPostExecute(String result) {
+            Toast.makeText(getApplicationContext(),"Entry #"+result+" saved.",Toast.LENGTH_LONG).show();
+        }
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

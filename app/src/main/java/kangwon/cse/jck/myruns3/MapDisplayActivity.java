@@ -1,4 +1,4 @@
-package kangwon.cse.jck.kangwon;
+package kangwon.cse.jck.myruns3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

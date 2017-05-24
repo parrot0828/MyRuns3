@@ -1,4 +1,4 @@
-package kangwon.cse.jck.kangwon;
+package kangwon.cse.jck.myruns3;
 
 import android.content.Intent;
 import android.os.Bundle;

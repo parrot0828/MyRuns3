@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "kangwon.cse.jck.jgh.cse1.kangwon"
+        applicationId "myruns3.cse.jck.jgh.cse1.myruns3"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

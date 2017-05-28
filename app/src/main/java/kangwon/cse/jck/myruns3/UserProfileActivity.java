@@ -144,7 +144,7 @@ public class UserProfileActivity extends AppCompatActivity {
     }
 
     public void changePhoto(View v) {
-        // 일단 아무거나 적었음
+        // 일단 아무거나 적었
         // 사진을 찍어 외부저장소 공용공간에 저장한다.
         // 내부저장소는 앱마다 각각 갖고 있는 있는 장소이고
         // 내부저장소에는 해당 앱만 접근할 수 있으므로
